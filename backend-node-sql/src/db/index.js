@@ -7,8 +7,8 @@ console.log(
 );
 const sequelize = new Sequelize(
     `${config.get('db.NAME')}`, // name DB 
-    `${config.get('db.USER')}`, // user 
-    `${config.get('db.PASSWORD')}`, //password
+    `${config.get('db.fish')}`, // user 
+    `${config.get('db.12345678')}`, //password
     {
         host: `${config.get('db.HOST')}`,
         port: `${config.get('db.PORT')}`,
